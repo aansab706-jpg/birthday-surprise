@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For Muqadas ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Music -->
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Voice -->
+<audio id="voiceMessage">
+    <source src="voice.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Intro -->
+<div id="intro">
+    <h1>✨ A Special Surprise ✨</h1>
+    <button onclick="startApp()">Start ❤️</button>
+</div>
+
+<!-- Login -->
+<div id="login" style="display:none;">
+    <h2>💖 Hello Muqadas Ibtasam 💖</h2>
+    <input type="password" id="password" placeholder="Enter our secret code...">
+    <button onclick="checkPassword()">Unlock ❤️</button>
+    <p id="error"></p>
+</div>
+
+<!-- Main -->
+<div id="main" style="display:none;">
+    <h1 id="message"></h1>
+    <button onclick="nextMessage()">Next ❤️</button>
+</div>
+
+<!-- Final -->
+<div id="final" style="display:none;">
+    <h1>❤️ I LOVE YOU FOREVER ❤️</h1>
+    <p>Happy Birthday My Queen 👑</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
