@@ -90,3 +90,6 @@ function startHearts() {
         }, 6000);
     }, 300);
 }
+function showLetter() {
+    document.getElementById("letter").style.display = "block";
+}
